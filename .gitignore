@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Virtualenv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Model & large ML files
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+scaler_*.pkl
+
+# Data files (if you don't want to upload)
+data/
+datasets/
+merged_AAPL_data*
+*.csv
+
+# Secrets and configs
+*.env
+secrets.json
+config.yaml
+
+# Misc
+*.zip
+*.tar.gz
